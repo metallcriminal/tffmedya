@@ -141,7 +141,7 @@ export default function PollCreate () {
                <div class="form-group col-md-4">
                <label >Add option {i+1}</label>
                <br></br>
-                  <input value = {inputList[i]== "[object Object]" ? '' : inputList[i]} type="text" name="option" class="form-control" placeholder="Option i+1" onChange={ e=>handleinputchange(e,i) }/>
+                  <input value = {inputList[i] === "[object Object]" ? '' : inputList[i]} type="text" name="option" class="form-control" placeholder="Option i+1" onChange={ e=>handleinputchange(e,i) }/>
                   
                   <view style= {{marginLeft: 10}} >
                   {
