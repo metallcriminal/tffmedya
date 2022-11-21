@@ -1,0 +1,6 @@
+const customTheme = {
+    textColor: 'black',
+    mainColor: '#00B87B',
+    backgroundColor: 'rgb(255,255,255)',
+    alignment: 'center'
+  }
